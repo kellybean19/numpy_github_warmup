@@ -15,7 +15,7 @@ def normalize(arr):
         np.array([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
     '''
     # your code here!
-    pass
+    return (arr-arr.min())/(arr.max()-arr.min())
 
 if __name__ == '__main__':
     # Test your code here!
