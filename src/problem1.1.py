@@ -23,7 +23,9 @@ def border_with_zeros(arr):
         ])
     '''
     # your code here!
-    pass
+    new_arr = np.zeros((4,4))
+    new_arr[1:3,1:3] = arr
+    return new_arr
 
 if __name__ == '__main__':
     # Test your code here!
